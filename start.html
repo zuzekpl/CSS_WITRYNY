@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!03.02.2022_Zuzelski>
+<html lang="pl-PL">
+<html>
+ <head>
+<meta charset="UTF-8">
+ <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=iso-8859-2">
+ </head>
+<body>
+ <h1 align="center">13 Tech. Gdańsk<br>przyjazna szkoła<br>Gdańsk, 3 lutego 2022 r.</h1>
+ <marquee bgcolor="red">Pozdrowienia</marquee>
+<b><center>CSS - Kaskadowe Arkusze Stylów (z ang. Cascading Style Sheets) jest to specjalny język
+stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów
+znajdujących się na stronach WWW.</center> </b>
+<table width=95% height=50 border="1" align="center">
+<td>
+<center><b>Cechy modyfikowania formatowania w:
+</td>
+<table width=95% height=40 border="1" align="center">
+<tr>
+	<td width="45%"><center><b>w HTML</td>	<td width="55%"><center><b>w CSS</td>
+</tr>
+<tr>
+	<td>modyfikacja wyglądu elementów strony jest
+bardzo żmudna (atrybuty i znaczniki które
+za to odpowiadają, są porozrzucane w
+różnych miejscach kodu, mieszając się ze
+strukturą dokumentu).
+</td>	
+<td>
+rozdzielenie struktury i prezentacji
+dokumentów czyli: wszystkie polecenia
+dotyczące formatowania można umieścić w
+jednym miejscu (tzw. arkuszu) i powiązać je
+z konkretnymi elementami, wstawionymi za
+pomocą czystego (X)HTML. Taki sposób
+sprawia, że modyfikacja wyglądu stron może
+przebiegać dużo sprawniej.</td>
+</tr>
+</table>
+<h2><center>Nowe możliwości CSS</center></h2>
+<ol>
+<li>Przestarzałe atrybuty i znaczniki, znajdujące się bezpośrednio w składni HTML, które
+dotyczą formatowania (elementy zdeprecjonowane), będą stopniowo wycofywane przez
+producentów przeglądarek internetowych, na rzecz rekomendowanych analogicznych
+deklaracji CSS.</li>
+<li>Dokumenty pisane z wykorzystaniem arkuszy stylów są zwykle bardziej przejrzyste i
+krótsze.</li>
+<li>Style pozwalają w łatwy sposób zarządzać całą serią dokumentów, poprzez stosowanie
+zewnętrznych arkuszy stylów.</li>
+<li>) Dzięki możliwości stosowania klas selektorów, znacznie oszczędzamy sobie pisania. W
+jednym miejscu określamy wszystkie atrybuty formatowania (których może być bardzo
+dużo), odnoszące się do wielu elementów, które mają wyglądać tak samo. Bezpośrednio przy
+elemencie wystarczy podać tylko nazwę klasy i nie musimy już wypisywać dużej ilości
+poleceń. Znacznie przyspiesza to późniejszą modyfikację strony, ponieważ zmian
+dokonujemy tylko w jednym miejscu, a wpływają one na wiele elementów jednocześnie.</li>
+<li>)Możliwość stosowania różnorodnych jednostek oraz sposobów definiowania kolorów.</li>
+<li>Różne wartości pogrubienia czcionki (9 rodzajów)</li>
+<li>Dodatkowe możliwości formatowania tekstu</li>
+<li>Efektowne filtry graficzne.</li>
+<li>Dodatkowe możliwości określenia wyglądu dokumentów podczas ich drukowania.</li>
+</ol>
+<h2><center>Wady CSS</center></h2>
+<ul>
+<li> złożona specyfikacja (składnia) nietolerująca, rzadnych błędów składniowych.</li>
+<li> brak sygnalizacji błędów podczas wykonywania styli CSS oraz podczas ich realizacji.</li>
+<li> błędne obsługiwanie CSS przez różne przeglądarki.</li>
+</ul>
+<h2><center>Sposoby podłączenia styli do strony (skrócone zestawienie).</center></h2>
+<h3><left>1)<u>Zewnętrzny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>2)Styl<u>lokalny</u>inaczek:(styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+</td>
+</table>
+<h3><left>3)<u>Wewnętrzny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>4)<u>Alternatywny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>5)<u>Import</u>arkusza stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</td>
+</table>
+</body>
+</html>
