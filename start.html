@@ -156,5 +156,38 @@ koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ś
 				której stoi w deklaracji. </p>
 			
 </ol>
+		<br>
+		<ol type="1">
+			<li><h1>Wewnętrzy arkusz stylów</h1></li>
+			<li><h1>Gdzie je wstawiamy?</h1></li>
+			<p> Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>). 
+	Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).<p>
+			<li><h1>Składnia teoretyczna</h1></li>
+			<table width=95% height=200 border="1" align="center">
+				<td> 
+				<textarea> 
+					<head>
+(...)
+<style type="text/css">
+/* <![CDATA[ */
+selektor1 { cecha: wartość; cecha2: wartość2... }
+selektor2 { cecha: wartość; cecha2: wartość2... }
+(...)
+/* ]]> */
+</style>
+(...)
+</head>
+					</textarea>
+			</td>
+		</table>
+			<li><h1>Jakie mogą być selektory?</h1></li>
+			<p> gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.
+Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu. <p>
+			<li><h1>Jakie mogą być cechy i wartości?</h1></li>
+			<p> Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami. <p>
+			</ol>
+			
 </body>
 </html>
