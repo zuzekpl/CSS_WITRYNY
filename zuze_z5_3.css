@@ -4,3 +4,24 @@ h1 {
 color: lime;
 font-size: 65 px;
  }
+<textarea
+<!DOCTYPE html>
+<!03.02.2022_Zuzelski>
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- wewnetrzny -->
+ <style>
+ h1 {
+ color: lime;
+ font-size: 65px;
+ }
+</style>
+</head>
+<body bgcolor="silver">
+ <h1> Zuzelski -> wewnętrzne </h1>
+ <p> Zuzelski-wewnętrzny arkusz</p>
+ </body>
+</html>
+</textarea>
