@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!26.03.2022_Zuzelski>
+<html lang="pl-PL">
+<html>
+ <head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h2><center>Sposoby podłączenia styli do strony (skrócone zestawienie).</center></h2>
+<h3><left>1)<u>Zewnętrzny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>2)Styl<u>lokalny</u>inaczek:(styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+</td>
+</table>
+<h3><left>3)<u>Wewnętrzny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>4)<u>Alternatywny</u>arkusz stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+</textarea>
+</td>
+</table>
+<h3><left>5)<u>Import</u>arkusza stylów.</left></h3>
+<table width=95% height=40 border="1" align="center">
+<td>
+<textarea>
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
+</textarea>
+</td>
+</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!26.03.2022_Zuzelski>
+<html lang="pl-PL">
+<html>
+ <head>
+<meta charset="UTF-8">
+</head>
+<body>
+<li><h1> Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu
+		lokalnego? </h1></li>
+	<p> Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi
+strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany.
+		O tym, który to będzie element, decyduje słowo kluczowe "selektor". </p>
+	<li><h1> Składnia teoretyczna ( z użyciem ramki otaczającej może być tabela o jednej
+komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby
+instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsp;
+		spacja niełamana] przykład „znaku specjalnego”). </h1><li>
+		<table width=95% height=200 border="1" align="center">
+			<td> 
+				<textarea> 
+					<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+lub inaczej
+				<selektor style="nasze style">treść bloku</selektor> 
+				</textarea>
+			</td>
+		</table>
+			<li><h1> Co może być selektorem? </h1></li>
+			<p> Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td
+(komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami,
+				nadajemy atrybuty formatowania. </p>
+			<li><h1> Co wipisujemy jako "cechę". Jakie jest znaczenie średników? </h1></li>
+			<p> Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie
+konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color).
+Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone
+				średnikami. </p>
+			<li><h1> Co wipisujemy jako "wartość" (w deklaracji stylu)? </h1></li>
+			<p> Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla
+koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po
+				której stoi w deklaracji. </p> <br>
+</body>
+</html>
