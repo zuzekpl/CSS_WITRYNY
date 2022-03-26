@@ -4,3 +4,21 @@ h1 {
 color: purple;
 font-size: 75px;
  }
+<textarea>
+<!DOCTYPE html>
+<!03.02.2022_Zuzelski>
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany -->
+ <style>
+ @import url("zuze_z5_1.css ");
+ </style>
+</head>
+<body bgcolor="silver">
+ <h1> importowany arkusz</h1>
+ <p> Zuzelski-importowany arkusz</p>
+ </body>
+</html>
+</textarea>
