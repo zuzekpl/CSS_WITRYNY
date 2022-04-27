@@ -1,0 +1,25 @@
+﻿/*DOCTYPE css*/
+/*25.03.2022_Zuzelski*/
+p{
+color:orange;
+font-size:20pt;
+font-family:Arial;
+}
+i{
+color:green;
+font-size:20pt;
+}
+strike{
+color:red;
+font-size:20pt;
+}
+u{
+color:violet;
+font-size:20pt;
+text-decoration: overline;
+}
+h1{
+color:blue;
+font-size:30pt;
+}
+ol{
