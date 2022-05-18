@@ -1,7 +1,16 @@
 ﻿/*DOCTYPE css*/
 /*01.03.2022_Zuzelski*/
 p{
-
+color: red;
+font-size: 22pt;
 }
-
+p#gruby_zuzelski {
+  color: green;
+  font-size: 10pt;
+  font-weight: bold;
+}
+#dlawszystkich_zuzelski {
+  color: yellow;
+  font-size: 10pt;
+  font-family: Arial;
 }
