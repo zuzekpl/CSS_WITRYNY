@@ -8,7 +8,7 @@
 <body>
 <ol>
 <li><h1>Czym jest znacznik DIV?</h1></li>
-Jaki to element? 
+Jaki to element:
 <br> Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
 zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
 obszerniejszych struktur.
@@ -45,50 +45,51 @@ ALIGN="ustawienie"
  right - wyrównanie do prawej
   <br>
   <li><h1>Czym jest znacznik SPAN?</h1></li>
-<ol>
-<li><b><u>Elementy wyświetlanie w linii (SPAN)</u></b> jest elementem liniowym nie mogą zawierać
-elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.</li>
-<li>Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do
-wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf <p> z zasady
-nie może zawierać elementów blokowych) tylko span.</li>
-<li>Wewnątrz DIV można oczywiście wpisać również SPAN.</li>
-<br>
-<p>Składnia teoretyczna</p>
+Jaki to element:
+<br> Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać
+elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst.
+Składnia:
 <table width=80% height=40 border="1" align="center">
 <tr><td><textarea><span style="cecha1: wartość1; cecha2: wartość2...">...</span></textarea></td></tr>
  </table>
-<p>Opis:
-Znacznik <span>...</span> pozwala na objęcie pewnego większego fragmentu dokumentu.
+<br>
+Zastosowanie:
+<br> Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do
+wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf "<p>" z zasady
+nie może zawierać elementów blokowych) tylko SPAN.
+Wewnątrz DIV można oczywiście wpisać również SPAN.
+Opis teoretyczny:
+<br> Znacznik <span>...</span> pozwala na objęcie pewnego większego fragmentu dokumentu.
 Pojedynczym znacznikiem <span>...</span> możemy objąć kilka różnych elementów, które
 są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie
 tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w
 sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki
-chcemy uzyskać.</p>
-<li><h1>Jakie są różnice miedzy znacznikami DIV i SPAN?</h1></li>
-<p>Obydwa elementy służą jedynie do<u>wyodrębniania części struktury dokumentu</u>, aby docelowo
-na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.</p>
+chcemy uzyskać.
 <br>
-<p><b><u>Span'em</u></b> wyodrębniamy <b>elementy liniowe</b> (najczęściej fragmenty tekstu) a <b><u>divem</u></b> blokowe
-<b>blokowe</b> elementy, większe fragmenty struktury składające się na układ strony)
-Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii</p>
+<li><h1>Jakie są różnice miedzy znacznikami DIV i SPAN?</h1></li>
+<br> Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo
+na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.
+<br> Span'em wyodrębniamy <b>elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe
+blokowe elementy, większe fragmenty struktury składające się na układ strony)
+Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii
  <li><h1>Jakie są elementy i tagi?</h1></li>
   </ol>
 <ol>
-<li><textarea>liniowe – <span>, <em>, <strong></textarea></li>
-<li><textarea>blokowe – <div>, <p>, <article></textarea></li>
-<li><textarea>liniowo-blokowe – <input>, <textarea></textarea></li>
-</ol>
-<p><b><u>Elementy liniowe</u></b> nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
+<li>liniowe – "<span>, <em>, <strong>"</li>
+  <p><b><u>Elementy liniowe</u></b> nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
 jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na
 "inline".</p>
-<p><b><u>Elementy blokowe</u></b> z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
+<li>>blokowe – "<div>, <p>, <article>"</li>
+  <p><b><u>Elementy blokowe</u></b> z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
 drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym
 przeglądarka ustawia właściwość "display" na "block".</p>
-<p><b><u>Elementy liniowo-blokowe</u></b> z kolei będą zachowywać się jak liniowe, jeśli chodzi o
+<li>liniowo - blokowe – "<input>, <textarea>"</li>
+  <p><b><u>Elementy liniowo-blokowe</u></b> z kolei będą zachowywać się jak liniowe, jeśli chodzi o
 położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że
 możesz nadać im różne wielkości. Ma to sens, np. <textarea> wyświetla się jako duży
 prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom
 liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block".</p>
+</ol>
 </body>
 </html>
 <!Kuba Zuzelski>
