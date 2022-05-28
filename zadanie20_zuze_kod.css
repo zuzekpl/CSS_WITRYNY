@@ -1,10 +1,13 @@
-﻿/*DOCTYPE css*/
+/*DOCTYPE css*/
 /*25.03.2022_Zuzelski*/
+<div> <!-- początek bloku DIV 1>
 p{
 color:orange;
 font-size:20pt;
 font-family:Arial;
 }
+</div> <!-- koniec bloku DIV 1 -->
+<div> <!-- początek bloku DIV 2>
 i{
 color:green;
 font-size:20pt;
@@ -18,8 +21,17 @@ color:violet;
 font-size:20pt;
 text-decoration: overline;
 }
+</div> <!-- koniec bloku DIV 2 -->
+<div> <!-- początek bloku DIV 3>
 h1{
 color:blue;
 font-size:30pt;
 }
 ol{
+<ol>
+<li style="color: blue; "><font-size:25pt><span style="color: black; ">Punkt pierwszy</span></li>
+<li style="color: red; "><font-size:20pt><span style="color: black; ">Punkt drugi</span></li>
+<li style="color: gray; "><font-size:15pt><span style="color: black; ">Punkt trzeci</span></li>
+</ol>
+}
+</div> <!-- koniec bloku DIV 3 -->
