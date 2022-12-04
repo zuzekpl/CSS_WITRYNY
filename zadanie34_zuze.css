@@ -7,4 +7,75 @@ margin-right : 1500px;
 border : 10px dashed silver;
 background : rgb(100,100,100);
 ]
+  <textarea
+  <!DOCTYPE html>
+<html>
+<head>
+<title>zadanie 34-Zuzelski</title>
+<meta charset="utf-8" />
+ <style>
+h1 {
+width: 400pt;
+height:2.8cm;
+padding : 50px;
+margin-left : 350px;
+border : 4px double black;
+border-top-color: silver;
+border-bottom-color: maroon;
+border-left-color: purple;
+border-right-color: red;
+background : rgb(0,0,255);
+}
+h2 {
+width: 300pt;
+height:3cm;
+padding : 30px;
+margin-left :160px;
+border : 7px solid fuchsia;
+background : rgb(0,255,0);
+}
+  h3 {
+width: 200pt;
+height:4cm;
+padding : 20px;
+margin-right : 1500px;
+border : 10px dashed silver;
+background : rgb(100,100,100);
+}
+</style>
+</head>
+<body>
+<h1><span style="font-size:6mm "><p style="word-spacing: 5px; ">
+Zuzelski
+width: 400pt;
+height:2.8cm;
+padding : 50px;
+margin-left : 350px;
+border : 4px double black;
+border-top-color: silver;
+border-bottom-color: maroon;
+border-left-color: purple;
+border-right-color: red;
+background : rgb(0,0,255);</span></p></h1>
+<h2><span style="font-size: 0,20cm "><p style="word-spacing: 5px; ">
+Kuba
+wwidth: 300pt;
+height:3cm;
+padding : 30px;
+margin-left :160px;
+border : 7px solid fuchsia;
+background : rgb(0,255,0);</span></p></h2>
+<h3><span style="font-size: 0,25cm "><p style="word-spacing: 5px; ">
+30 3F2 
+width: 200pt;
+height:4cm;
+padding : 20px;
+margin-right : 1500px;
+border : 10px dashed silver;
+background : rgb(100,100,100);
+</p></span></h3>
+</body>
+</html>
+<!-- Kuba Zuzelski -->
+  </textarea>
 /*Kuba Zuzelski*/
