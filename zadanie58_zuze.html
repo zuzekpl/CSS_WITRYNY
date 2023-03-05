@@ -14,9 +14,8 @@ CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie n
 <li><i>Uwaga dotycząca <b>dwukropka</i>:</b></li>
   <br>
 Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy selektorem a nazwą klasy.
-
-<li><i>Tabela opisu pseudoklas</i></li>
   <br>
+<li><i>Tabela opisu pseudoklas:</i></li>
 <p><table width=80% height=40 border="1" align="center"></p>
 <tr><td><b>A:link,</b></td><td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td></tr>
 <tr><td><b>A:visited,</b></td><td>zawartość elementu (np.: tekst, obrazek)</td></tr>
@@ -27,24 +26,27 @@ tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję 
 <tr><td><b>:lang</b></td><td>formatowanie wielojęzykowych dokumentów.</td></tr>
 <tr><td><b>:first-child</b></td><td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</td></tr>
 </table>
-
+<br>
   <li><b><u>Zastosowanie pseudoklasy :active</u></b></li>
 <ol>
 <li>można używać jako uzupełnienia definicji odnośników</li>
 <li>jako elementu poprawiającego czytelność formularzy.</li>
 </ol>
+  <p>
  <li>Przykłady</li>
 <b>Przykład 1</b>
   <br>
 <u>Temat:</u>Arkusz wykorzystujący <b>:link</b> oraz <b>:visited</b> pseudoklasy w połączeniu z selektorem <b>A.</b> Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu taki odnośnik będzie miał kolor zielony.
-A:link
-{
-color:red;
-}
-A:visited
-{
-color:green;
-}
+<br>
+    A:link <br>
+{          <br>
+color:red; <br>
+}          <br>
+A:visited  <br>
+{          <br>
+color:green; <br>
+}          <br>
+  <p>
 <b>Przykład 2</b>
   <br>
 <u>Temat:</u> Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.
@@ -66,7 +68,7 @@ A:hover
 color:red;
 text-decoration:underline;
 }
-
+<p>
 <b>Przykład 3</b>
   <br>
 Temat: Zastosowanie :focus
