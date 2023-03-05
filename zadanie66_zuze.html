@@ -5,7 +5,7 @@
  <meta charset="UTF-8"/>
 </head> 
 <body>
-<h1><u><b>Pseudoelementy<u>(selektory pseudoelementów)</b></h1>
+<h1><u><b>Pseudoelementy</u>(selektory pseudoelementów)</b></h1>
 
 <b>Pseudoelementem :first-line, który obejmuje formatowaniem całą
 pierwszą linię.</b>
@@ -23,12 +23,14 @@ p:first-line
  font-weight:bold;
  }
 </textarea>
-<p>
+<p>
+
 <b>pseudoelementy: :after oraz :before.</b>
 <p>
 Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
 <b>pseudoelementy: :after oraz :before.</b> Oba elementy służą do umieszczania tekstu przed i za
-formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.
+formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.
+
 <p>
 <textarea { resize: none }>
 p:before
@@ -65,7 +67,8 @@ p:first-letter
  font-size:100pt;
  }
 </textarea>
-<p>
+<p>
+
 Efektem działania powyższego arkusza stylów będzie <b><u>powiększona pierwsza litera każdego
 akapitu</u></b> występującego w dokumencie XHTML/HTML.
 <br>
@@ -73,7 +76,8 @@ akapitu</u></b> występującego w dokumencie XHTML/HTML.
 Zastosowanie pseudoelement :first-letter z innymi znacznikami.
 Przykład z nagłówkiem stopnia pierwszego.
 <p>
-<textarea { resize: none }>
+<textarea { resize: none }>
+
 H1
  {
  color:navy;
@@ -83,7 +87,8 @@ H1:first-letter
  {
  color:red;
  font-size:100pt;
- }
+ }
+
 </textarea>
 </body>
 </html>
