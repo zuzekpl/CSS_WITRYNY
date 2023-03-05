@@ -16,7 +16,7 @@ A:hover
 color: red;
 text-decoration: underline; /*Wartości właściwości text-decoration; stawia rodzaj dekoracji tekstu do użycia-underline; (podkreślenie)*/
 }
-p
+div
 {
   font-size: 2cm;
   color: red;
