@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>zadanie 58-Zuzelski</title>
@@ -6,16 +6,16 @@
 </head>
 <body>
 <h1><b><u>Teoria Pseudoklasy</u></b></h1>
-
-<i>Co to są pseudoklasy?</i>
-  <br>
+<ol type="1">
+  <li><i>Co to są pseudoklasy?</i></li>
+  <p>
 CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych elementów dokumentu są to <b>Pseudoklasy</b>.
-
-<i>uwaga dotycząca <b>dwukropka</i>:</b>
+  <p>
+<li><i>Uwaga dotycząca <b>dwukropka</i>:</b></li>
   <br>
 Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy selektorem a nazwą klasy.
 
-<i>Tabela opisu pseudoklas</i>
+<li><i>Tabela opisu pseudoklas</i></li>
   <br>
 <p><table width=80% height=40 border="1" align="center"></p>
 <tr><td><b>A:link,</b></td><td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td></tr>
@@ -28,13 +28,13 @@ tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję 
 <tr><td><b>:first-child</b></td><td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</td></tr>
 </table>
 
-<b><u>Zastosowanie pseudoklasy :active</u></b>
+  <li><b><u>Zastosowanie pseudoklasy :active</u></b></li>
 <ol>
 <li>można używać jako uzupełnienia definicji odnośników</li>
 <li>jako elementu poprawiającego czytelność formularzy.</li>
 </ol>
-
-<b>Przykład</b>
+ <li>Przykłady</li>
+<b>Przykład 1</b>
   <br>
 <u>Temat:</u>Arkusz wykorzystujący <b>:link</b> oraz <b>:visited</b> pseudoklasy w połączeniu z selektorem <b>A.</b> Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu taki odnośnik będzie miał kolor zielony.
 A:link
@@ -45,12 +45,11 @@ A:visited
 {
 color:green;
 }
-
-<b>Przykład</b>
+<b>Przykład 2</b>
   <br>
 <u>Temat:</u> Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.
 A /* Definicja odsyłacza podstawowego*/
-{
+{ 
 font-size:12pt;
 text-decoration:none;
 }
@@ -68,9 +67,14 @@ color:red;
 text-decoration:underline;
 }
 
-<b>Przykład</b>
+<b>Przykład 3</b>
   <br>
 Temat: Zastosowanie :focus
+  A:focus
+ {
+ color:braun;
+ }
+
   </body>
 </html>
 <!-- Kuba Zuzelski -->
