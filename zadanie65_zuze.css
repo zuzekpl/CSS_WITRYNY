@@ -1,0 +1,12 @@
+div#pierwszy_zuzelski
+{
+p{font-size:10pt;} 
+p:first-child
+{font-size:9mm;font-styl:italic;}
+}
+div#drugi_zuzelski
+{
+}
+div#trzeci_zuzelski
+{
+}
