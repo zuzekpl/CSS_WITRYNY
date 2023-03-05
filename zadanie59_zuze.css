@@ -1,7 +1,7 @@
 A
 {
 font-size: 18pt;
-text-decoration: none;
+text-decoration: none; */Wartości właściwości text-decoration; Ustawia rodzaj dekoracji tekstu do użycia-none; (nie zmienia wyglądu tekstu)*/
 }
 A:link
 {
@@ -14,5 +14,5 @@ color: green;
 A:hover
 {
 color: red;
-text-decoration: underline;
+text-decoration: underline; */Wartości właściwości text-decoration; stawia rodzaj dekoracji tekstu do użycia-underline; (podkreślenie)*/
 }
