@@ -1,12 +1,52 @@
+p
+{
+font-size: 10pt;
+}
+
+p:first-child
+{
+font-size: 9mm;
+font-style: italic;
+}
+
+body
+{
+background-color: silver;
+}
+
 div#pierwszy_zuzelski
 {
-p{font-size:10pt;} 
-p:first-child
-{font-size:9mm;font-styl:italic;}
+width: 820pt ;
+margin-left: auto;
+margin-right: auto;
+border-top-right-radius: 11px;
+border-top-right-radius: 11px;
+border-bottom-left-radius: 11px;
+border-bottom-right-radius: 11px;
+background-color: lightblue;
+border: navy solid 5px;
 }
+
 div#drugi_zuzelski
 {
+width: 1020pt ;
+background-color: pink;
+border-top-right-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border: black solid 3px;
 }
+
 div#trzeci_zuzelski
 {
+width: 1220pt ;
+margin-left: auto;
+margin-right: auto;
+background-color: lightgreen;
+border-top-right-radius: 19px;
+border-top-right-radius: 19px;
+border-bottom-left-radius: 19px;
+border-bottom-right-radius: 19px;
+border: purple solid 7px;
 }
