@@ -1,0 +1,30 @@
+<html>
+<head>
+ <title>demonstracja hover</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <style type="text/css">
+ div#blok1_zuzelski {background-color: 00ff00;width:630px;}
+ div#blok2_zuzelski {background-color: 00ff00;width:630px;}
+ div#blok3_zuzelski{background-color: 00ff00;width:630px;}
+ div#blok1_zuzelski:hover {background-color: ff0000;font-size:18mm;}
+ div#blok2_zuzelski:hover {background-color: ffa500;font-size:18mm;}
+ div#blok3_zuzelski:hover {background-color: ffff00;font-size:18mm;}
+/* 20mm wynika z obliczenia wielkości liter--> Ty oblicz Twoją wielkść */
+/* dopisz jeszcze dwa hover z opowiednimi kolorami--> patrz tabela */
+/* Dopisz _Twoje_nazwisko po blik1, blok2, blok3 w całym kodzie */
+/* Polecenie hover pozwala nadać określone atrybuty formatowania dla elementów, nad którymi znajduje się wskaźnik myszki, kiedy użytkownik jeszcze ich nie kliknął, tzn. nie zostały jeszcze aktywowane. */
+/* Kuba Zuzelski */
+ </style>
+</head>
+<body>
+ <p style="color:red;font-size:10mm"> Mam numer w dzienniku 30 to kolory: czerwony, pomarańczowy, żółty dla hover</p>
+ <p style="color:blue;font-size:10mm">Wiekość_liter=(18+reszta_z_dzielenia(liczba_liter_nazwiska przez 4)[mm])</p>
+ <p style="color:green;font-size:10mm">mam na nazwisko Zuzelski=8 liter czyli wielkośćliter D=(18+8%4)=18mm </p>
+ <p style="color:green;font-size:10mm">wpisz Twoje obliczenia D</p>
+ <div id= "blok1_zuzelski"> blok1 Kuba Zuzelski</div><br>
+ <div id= "blok2_zuzelski"> blok2 Kuba Zuzelski </div><br>
+ <div id= "blok3_zuzelski"> blok3 Kuba Zuzelski </div><br>
+</body>
+</html>
+<!-Polecenie hover pozwala nadać określone atrybuty formatowania dla elementów, nad którymi znajduje się wskaźnik myszki, kiedy użytkownik jeszcze ich nie kliknął, tzn. nie zostały jeszcze aktywowane.->
+<!-Kuba Zuzelsk->
